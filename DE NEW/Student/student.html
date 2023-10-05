@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student</title>
+    <link rel="stylesheet" href="student.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../Navbar-Stu/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <nav>
+        <div class="logo">
+          <img
+            src="./natures-beauty-reflected-tranquil-mountain-waters-generative-ai.jpg"
+            alt="logo"
+          />
+        </div>
+        <ul class="ham_active">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/Check Records/Records.html">Check Records</a></li>
+          <li><a href="/Student/student.html">Generate QR-Code</a></li>
+          <li><a href="/"">LogOut</a></li>
+          <li><a href="/form/index.html" class="btn">Login</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div class="stu-container">
+      <div class="stu-header">
+        <h1>Welcome Students</h1>
+        <h4>Your Enrollment Number : <strong>211120107001</strong></h4>
+      </div>
+
+      <div class="qr-code">
+        <img src="./qr code.png" alt="Qr-Code" height="200px" width="200px" />
+      </div>
+
+      <div class="stu-btn">
+        <!-- <button type="submit" class="btn">
+          <a href="/Check Records/Records.html">Check Records</a>
+        </button> -->
+        <a href="../Check Records/Records.html">
+          <button class="btn">Check Attendance Records</button>
+        </a>
+      </div>
+    </div>
+    <script src="../Navbar-Stu/index.js"></script>
+  </body>
+</html>
