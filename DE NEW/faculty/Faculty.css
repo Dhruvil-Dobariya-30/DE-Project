@@ -73,7 +73,11 @@ button:hover {
   background-color: #3308cf8f;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.btn-submit a{
   color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {

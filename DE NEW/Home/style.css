@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: url(../Images/colorful-circles-6000x4000-12662.jpg) center / cover;
+}
+
+.container-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.fac-box,
+.stu-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16%;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  box-shadow: 0.4 rem 0.8rem #0005;
+  border-radius: 5px;
+}
+
+header {
+  /* width: 100%; */
+  font-size: 16px;
+  margin: 10px 0px;
+  background-color: #fff4;
+  padding: 7px 28px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.fac-img img {
+  width: 160px;
+  height: 160px;
+}
+
+.stu-img img {
+  width: 160px;
+  height: 160px;
+}
+
+.fac-login button {
+  font-size: 16px;
+  margin: 10px 0px;
+  background-color: #fff4;
+  padding: 7px 10px;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
+  background-color: #001bcf96;
+}
+
+a {
+  color: #fff;
+}
+
+button:hover {
+  background-color: #020270b5;
+}
+
+@media screen and (max-width: 700px) {
+  .form-box {
+    width: 100%;
+  }
+
+  .container-box {
+    flex-direction: column;
+  }
+
+  .fac-box,
+  .stu-box {
+    height: 40%;
+    width: 74%;
+  }
+
+  header #title1 {
+    margin: 4px 7px;
+    padding: -1px;
+    /* margin: 2px 24px;
+    padding: -1px 51px; */
+  }
+
+  header #title2{
+    /* margin: 3px 26px;
+    padding: -1px ; */
+    margin: 4px 7px;
+    padding: -1px;
+  }
+
+  .stu-img img{
+    height: 140px;
+  }
+  .fac-img img{
+    height: 140px;
+  }
+
+  .fac-login button {
+    font-size: 16px;
+    margin: 10px 0px;
+    padding: 6px 16px;
+    border-radius: 7px;
+    margin: 0 0 10px 0;
+  }
+}
