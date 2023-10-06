@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>QR Code Detector</h1>
+      <div class="qr-box">
+        <div class="box info" id="info">
+          <img src="https://img.icons8.com/3d-fluency/94/info.png" alt="info" />
+        </div>
+        <div class="reader-container">
+          <div id="reader"></div>
+          <img
+            id="changeCamera"
+            src="https://img.icons8.com/stickers/100/switch-camera.png"
+            alt="switch-camera"
+          />
+        </div>
+        <div id="qr-reader-results"></div>
+        <button id="startButton">Start scanning</button>
+      </div>
+      <script
+        src="https://unpkg.com/html5-qrcode"
+        type="text/javascript"
+      ></script>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
