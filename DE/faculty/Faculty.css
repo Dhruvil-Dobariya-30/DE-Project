@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f4f4f4; */
+  background: url(../Images/colorful-circles-6000x4000-12662.jpg) center / cover;}
+
+.container {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px;
+  /* background-color: #334155; */
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff5;
+  /* backdrop-filter: blur(7px); */
+  box-shadow: 0.4 rem 0.8rem #0005;
+}
+
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 9px;
+  font-weight: bold;
+}
+
+select,
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff6;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  margin: 11px 0 25px 0;
+}
+
+select:hover {
+  background-color: #0006;
+}
+input:hover{
+  background-color: #0006;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color:#3308cf8f;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #020270b5;
+}
+
+.btn-submit {
+  font-weight: 700;
+  padding: 8px 20px;
+  border: none;
+  background-color: #3308cf8f;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-submit a{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    border-radius: 12px;
+  }
+}
