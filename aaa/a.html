@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="qrcode.js"></script>
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+  </head>
+  <body ng-app="sampleApp">
+    <div ng-controller="sampleCtrl">
+      {{ms}}
+      <div id="container">
+        <h1>CLICK ON QR Code Scanner</h1>
+        <a id="btn-scan-qr">
+          <img
+            src="https://uploads.sitepoint.com/wp-content/uploads/2017/07/1499401426qr_icon.svg"
+          />
+          <a />
+          <canvas hidden="" id="qr-canvas"></canvas>
+          <div id="qr-result"><b>Data:</b> <span id="outputData"></span></div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
