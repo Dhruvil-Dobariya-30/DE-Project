@@ -1,9 +1,15 @@
 const hamburger = document.querySelector(".hamburger");
 const ul = document.querySelector("ul");
+const ham_active = document.querySelector(".ham_active");
+
+// Initially remove the "active" and "ham_active" classes
+hamburger.classList.remove("active");
+ul.classList.remove("active");
+ul.classList.remove("ham_active");
 
 hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle('active')
-  ul.classList.toggle('active')
+  hamburger.classList.toggle("active");
+  ul.classList.toggle("active");
   ul.classList.toggle("ham_active");
 
   let ham_child = hamburger.firstElementChild;
