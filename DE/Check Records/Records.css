@@ -194,6 +194,9 @@ tbody tr.hide td img {
   td:not(:first-of-type) {
     min-width: 12.1rem;
   }
+  .input-group {
+    visibility: hidden;
+  }
 }
 
 thead th span.icon-arrow {
